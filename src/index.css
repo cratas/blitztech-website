@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-white);
+
+  /* white colours */
+  --color-pure-white: #fff;
+  --color-white: #f6f6f6;
+  --color-dark-white: rgb(235, 235, 235);
+
+  /* red colours */
+  --color-red: rgb(255, 0, 0);
+
+  --color-light-grey: #c6c6c6;
+  --color-grey: #727272;
+
+  /* navy colours */
+  --color-light-blue: #067fba;
+  --color-blue: #056290;
+  --color-dark-blue: #03253a;
+
+  /* yellow colours */
+  --color-yellow: #f6ae2d;
+}

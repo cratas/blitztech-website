@@ -1,0 +1,132 @@
+.navbarContainer {
+  padding: 0.8rem !important;
+  background-color: var(--color-white);
+}
+
+.navbarContainer.scrolled {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.links {
+  margin-right: 2rem;
+  font-weight: 700;
+  color: var(--color-light-blue) !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links.active {
+  color: var(--color-dark-blue)!important;
+}
+
+/* .links.active:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: 15%;
+  left: 0;
+  background-color: var(--color-yellow);
+  transition: transform 0.25s ease-out;
+  transform-origin: bottom right;
+  border-radius: 10rem;
+}
+
+.links:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  top: 15%;
+  left: 0;
+  background-color: var(--color-yellow);
+  transform-origin: left bottom;
+  transition: transform 0.25s ease-out;
+  border-radius: 10rem;
+}
+
+.links:hover:after {
+  transform: scaleX(1);
+  transform-origin: left bottom;
+} */
+
+.links:hover {
+  color: var(--color-dark-blue)!important;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.navbarToggle {
+  border: none;
+  padding: 0;
+  animation: 1s navbar-animation-2;
+}
+
+.navbarToggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.toggleIcon {
+  width: 2rem;
+}
+
+
+.toggleIconLineOne {
+  width: 100%;
+  margin: 0.5rem 0;
+  height: 3px;
+  background-color: var(--color-dark-blue);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  border-radius: 10rem;
+}
+
+.toggleIconLineTwo {
+  width: 70%;
+  margin: 0.5rem 0;
+  height: 3px;
+  background-color: var(--color-dark-blue);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  border-radius: 10rem;
+}
+
+.rotateLeft {
+  transform: rotate(135deg);
+  margin: 0 0 -3px 0;
+}
+
+.rotateRight {
+  width: 100% !important;
+  transform: rotate(45deg);
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .navbarContainer {
+    text-align: center;
+  }
+  .links {
+    margin-right: 0rem;
+  }
+  .links.active:before {
+    background-color: transparent;
+  }
+
+  .links:after {
+    background-color: transparent;
+  }
+  .links:hover:after {
+    background-color: transparent;
+  }
+}

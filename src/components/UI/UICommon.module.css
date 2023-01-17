@@ -1,0 +1,99 @@
+.serviceCard {
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.formInput {
+  background-color: var(--color-blue);
+  border: none;
+  padding: 0.6rem;
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.formInput:focus {
+  border: 1px solid var(--color-black) !;
+  box-shadow: none !important;
+}
+
+.formInput::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--color-light-grey);
+  font-weight: 400;
+  opacity: 1; /* Firefox */
+}
+
+.formInput:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+.formInput::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+
+.errorMessage{
+  color: var(--color-white)!important;
+  font-size: 1rem;
+}
+
+/* OLD CSS */
+
+/* .textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.textWrapperReversed {
+  align-items: flex-end;
+}
+
+.textWrapperReversed p {
+  text-align: right;
+}
+
+.textWrapper h3 {
+  color: var(--color-black);
+}
+
+.imageWrapper img {
+  width: 15rem;
+  max-width: 15rem;
+  min-width: 15rem;
+  border-radius: 2rem;
+}
+
+@media (max-width: 992px) {
+  .textWrapper h3 {
+    font-size: 1.5rem;
+  }
+
+  .textWrapper p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) { 
+  .serviceCard {
+    flex-direction: column-reverse;
+  }
+
+  .textWrapper {
+    text-align: center;
+  }
+
+  .textWrapperReversed {
+    align-items: center;
+  }
+
+  .textWrapperReversed p {
+    text-align: center;
+  }
+
+  .imageWrapper img {
+    width: 100%;
+    max-width: 100%;
+  }
+ } */

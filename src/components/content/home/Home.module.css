@@ -1,0 +1,20 @@
+.imageWrapper {
+    position: relative;
+}
+
+.rightTopDots {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -33px;
+    margin-top: -33px;
+}
+
+.leftBottomDots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -33px;
+    margin-bottom: -33px;
+}
+
