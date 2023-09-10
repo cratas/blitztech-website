@@ -11,7 +11,6 @@ import {
   ThemeProvider,
 } from "@mui/material/styles";
 import Loader from "./components/Loader/Loader";
-// or
 
 var theme = createTheme({
   typography: {
