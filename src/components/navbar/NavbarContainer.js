@@ -97,7 +97,7 @@ const NavbarContainer = () => {
               >
                 <Typography style={{ fontWeight: "bold" }}>Služby</Typography>
               </Link>
-
+{/* 
               <Link
                 to="/photovoltaics"
                 onClick={() => dispatch(navActions.linkPhotovoltaics())}
@@ -106,7 +106,7 @@ const NavbarContainer = () => {
                 <Typography style={{ fontWeight: "bold" }}>
                   Fotovoltaika
                 </Typography>
-              </Link>
+              </Link> */}
 
               <Link to="/contact">
                 <MyButton

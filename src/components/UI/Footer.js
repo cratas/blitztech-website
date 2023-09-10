@@ -43,19 +43,6 @@ export const Footer = () => {
             </Typography>
           </Link>
           <Link
-            to="/photovoltaics"
-            onClick={() => dispatch(navActions.linkPhotovoltaics())}
-            style={{ textDecoration: "none" }}
-          >
-            <Typography
-              variant="p"
-              color="var(--color-white)"
-              style={{ marginRight: "2rem" }}
-            >
-              Fotovoltaika
-            </Typography>
-          </Link>
-          <Link
             to="/services"
             onClick={() => dispatch(navActions.linkServices())}
             style={{ textDecoration: "none" }}
