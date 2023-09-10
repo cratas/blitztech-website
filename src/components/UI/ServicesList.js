@@ -20,20 +20,20 @@ export const ServicesList = () => {
         />
 
         <Service
-          title="Fotovoltaické elektrárny"
-          text="Uvažujete o vlastní fotovoltaické elektrárně? Pak jste tu správně. Využijte energii ze slunce, snižte svoje výdaje a jděte s dobou. Naše společnost vám zajistí dodávku solární elektrárny na klíč, dle vašich individuálních potřeb, včetně kompletní administrativy. Výrazné snížení nákladů na elektrickou energii, zodpovědný přístup k životnímu prostředí, částečná energetická soběstačnost a dotace na pořízení. To vše je možné díky fotovoltaické elektrárně."
+          title="Výkopové práce"
+          text="Plánujete stavební projekt nebo potřebujete připravit terén pro další práce? Naše tým je specializovaný na výkopové práce všeho druhu. Využijte našeho odborného know-how a moderní techniky pro rychlé a kvalitní provedení výkopů. Ať už se jedná o základy, kanalizaci, nebo jiné infrastrukturní projekty, jsme zde, abychom vám pomohli."
           leftAligned={true}
           image={photovoltaicService}
         />
         <Service
-          title="Nabíjecí stanice"
-          text="Eletromobilita představuje nejen současný trend, ale dost možná i budoucnost dopravy. Svědčí o tom rostoucí počty plug-in hybridů i čistě bateriových elektromobilů na našich silnicích i množství vznikajících dobíjecích míst. Dokud se ale auta nabíjí běžnou elektřinou z rozvodné sítě, která se získává především spalováním fosilních paliv, zůstane ekologický přínos elektromobility přinejmenším sporný. Řešení představuje nabíjení elektromobilu z fotovoltaiky"
+          title="Elektro"
+          text="Ať už plánujete novou elektroinstalaci nebo potřebujete servis či revizi stávajícího zařízení, naši elektři vám poskytnou kvalitní a odbornou pomoc. Zajišťujeme veškeré silnoproudé i slaboproudé instalace, diagnostiku a odstraňování závad. Bezpečnost, kvalita a spolehlivost jsou našimi hlavními prioritami."
           leftAligned={false}
           image={powerStation}
         />
         <Service
-          title="Full Back up"
-          text="Systém Full Back Up slouží jako efektivní řešení při výpadku proudu. Zálohujeme celý dům z baterií vaší fotovoltaické elektrárny, a to bez výrazných zásahů do rozvodů RD. Díky systému Full Back Up si rozsvítíte, i když bude všude kolem tma. Přes den vyrábí fotovoltaická elektrárna více energie, než domácnost spotřebuje. Přebytky jsou ukládány do akumulátoru. Střídač nabíjí a zároveň dodává elektřinu do domu. Při výpadku elektrické energie se okamžitě začne využívat elektrická energie uložená v bateriích FVE."
+          title="Neřízené protlaky"
+          text="Neřízené protlaky mohou mít mnoho příčin a je důležité se s nimi správně vypořádat. Naše tým má zkušenosti s diagnostikou, preventivními opatřeními a řešením problémů spojených s neřízenými protlaky. Bezpečnost a efektivita je pro nás na prvním místě, ať už se jedná o domácnost nebo průmyslový objekt."
           leftAligned={true}
           image={fullBackUpImage}
         />

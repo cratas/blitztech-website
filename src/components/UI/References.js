@@ -14,7 +14,7 @@ export const References = () => {
       <Container>
         <Heading
           miniTitle="Reference"
-          title="Co o nás říkají naši zákazníci?"
+          title="Co o nás říkají naši klienti?"
           variant="h4"
           miniTitleColor="var(--color-light-grey)"
           titleColor="var(--color-dark-blue)"
@@ -25,7 +25,7 @@ export const References = () => {
             <ClientCard
               image={menImageFirst}
               feedback={
-                "Chci poděkovat za příjemnou komunikaci a skvěle odvedenou práci. Střechaři i elektrikáři odvedli špičkovou práci. Byli milí, ochotní a vstřícní."
+                "Děkuji za rychlou a precizní realizaci výkopových prací. Tým byl velmi profesionální a dokončil práci dříve, než jsem očekával."
               }
               name="Kamil Švec"
               city="Krmelín"
@@ -36,7 +36,7 @@ export const References = () => {
               image={menImageSecond}
               name="Jiří Palla"
               feedback={
-                "Perfektní spolupráce. Moc děkuji celému týmu. Do budoucna budu uvažovat i o rozšíření, případně pořízení autonabíječky."
+                "Elektroinstalace proběhla naprosto bez problémů. Komunikace byla na vysoké úrovni a všechny mé dotazy byly rychle a jasně zodpovězeny."
               }
               city="Příbor"
               isMiddle={true}
@@ -48,9 +48,10 @@ export const References = () => {
               name="Petra Brdová"
               city="Šumperk"
               feedback={
-                "Děkujeme za instalaci fotovoltaiky na náš rodinný dům. Musím říci, že jsem příjemně překvapen, jak celý proces proběhl (i v dnešní složité době) plynule a hladce."
+                "Oceňuji profesionalitu a odbornost vašeho týmu při řešení neřízených protlaků. Díky vašemu přístupu byl celý projekt bez stresu a komplikací."
               }
             />
+            <a href="https://www.vecteezy.com/free-vector/digger">Digger Vectors by Vecteezy</a>
           </Grid>
         </Grid>
       </Container>

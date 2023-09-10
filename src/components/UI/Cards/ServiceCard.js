@@ -25,7 +25,7 @@ export const ServiceCard = ({
         alt="The image"
         src={image}
         style={{
-          width: "6rem",
+          width: "13rem",
           height: "100%",
         }}
       />

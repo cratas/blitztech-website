@@ -18,12 +18,10 @@ export const IntroHeader = ({ scrollingRef }) => {
           color={"var(--color-light-blue)"}
           style={{ fontWeight: "bold" }}
         >
-          Šetříme <span style={{ color: "var(--color-dark-blue)" }}>Vaše</span>
+          Šetříme <span style={{ color: "var(--color-dark-blue)" }}>Vám</span>
           <br />
-          <span style={{ color: "var(--color-dark-blue)" }}>
-            peníze 
-          </span>{" "}
-          za elektřinu
+          <span style={{ color: "var(--color-dark-blue)" }}>starosti i {" "}</span>
+          peníze
         </Typography>
       </Box>
 
@@ -60,9 +58,10 @@ export const IntroHeader = ({ scrollingRef }) => {
             fontWeight={"500"}
             color={"var(--color-grey)"}
           >
-            Kompletní řešení fotovoltaických elektráren, které jsou schopny
-            ušetřit Vám spoustu peněz, vyhnout se inflaci a v neposlední řadě
-            přispět k lepšímu životnímu prostředí.
+            Kompletní řešení v oblasti výkopových prací, elektroinstalací a
+            neřízených protlaků. S našimi službami získáte kvalitní a efektivní
+            výsledky, minimalizujete rizika a zároveň přispějete k bezpečnosti a
+            plynulosti vašich projektů
           </Typography>
         </Box>
       </Box>

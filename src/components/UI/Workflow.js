@@ -19,26 +19,26 @@ export const Workflow = () => {
         <Step
           isLeftAligned={false}
           number="01."
-          title="Analýza a požadavky"
-          text="Zpracujeme kompletní studii co nejvýhodnějšího řešení přímo pro Váš dům s ohledem na Vaše potřeby. Vypracujeme cenovou nabídku a zkontrolujeme technickou připravenost."
+          title="První konzultace a analýza"
+          text="Provedeme detailní průzkum místa a analyzujeme vaše specifické požadavky, ať už jde o výkopové práce, elektroinstalace nebo neřízené protlaky."
         />
         <Step
           isLeftAligned={true}
           number="02."
-          title="Administrativa"
-          text="Po podpisu objednávky, zařídíme zpracování technického projektu a veškerou nutnou administrativu spojenou  s garancí nejvýhodnější dotace."
+          title="Plánování a administrativa"
+          text="Sestavíme technický plán a časový harmonogram prací. Postaráme se také o veškerou potřebnou administrativu a povolení."
         />
         <Step
           isLeftAligned={false}
           number="03."
-          title="Instalace"
-          text="rovedeme kvalitně instalaci v co nejdřívějším termínu a zajistíme návštěvu revizního technika."
+          title="Provedení prací"
+          text="Naše týmy začnou s pracemi dle plánu. Věnujeme maximální pozornost kvalitě, efektivitě a bezpečnosti."
         />
         <Step
           isLeftAligned={true}
           number="04."
-          title="Šetříme Vaše finance"
-          text="Konečně si můžete začít naplno užívat pocit energetické samostatnosti a šetřit své finance."
+          title="Kontrola a dokončení"
+          text="Po dokončení prací provedeme revizi a kontrolu kvality. Ujistíme se, že vše bylo provedeno dle vašich představ a očekávání."
         />
       </Box>
     </Container>

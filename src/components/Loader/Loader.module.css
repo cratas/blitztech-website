@@ -14,7 +14,7 @@
 }
 
 .loaderContainer img {
-  width: 18rem;
+  width: 20rem;
   position: absolute;
   transform: translate(-50%, -50%);
   animation: 1s size-animation;
@@ -32,10 +32,10 @@
 
 @keyframes size-animation {
   30% {
-    width: 25rem;
+    width: 28rem;
   }
   80% {
-    width: 18rem;
+    width: 20rem;
   }
 }
 

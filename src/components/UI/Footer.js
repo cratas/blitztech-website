@@ -99,7 +99,7 @@ export const Footer = () => {
           alignItems="center"
         >
           <Typography variant="p" color="var(--color-light-grey)">
-            Copyright © 2022 Blitztech s.r.o.
+            Copyright © 2023 Blitztech s.r.o.
           </Typography>
           <Box mt={{ xs: "1rem", sm: "0" }}>
             <SocialIcon

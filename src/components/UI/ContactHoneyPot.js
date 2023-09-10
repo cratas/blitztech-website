@@ -51,8 +51,7 @@ export const ContactHoneyPot = () => {
             textAlign="center"
             mb={5}
           >
-            Kontaktujte nás a připravíme Vám
-            <br /> řešení na míru bez starostí
+            Kontaktujte nás a získáte <br/> řešení přesně podle Vašich potřeb.
           </Typography>
           <Link to="/contact">
             <MyButton

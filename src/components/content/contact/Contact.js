@@ -14,7 +14,7 @@ const Contact = () => {
 
   useEffect(() => {
     dispatch(navActions.linkContact());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
