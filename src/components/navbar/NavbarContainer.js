@@ -3,7 +3,6 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Typography } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
-
 import MyButton from "../UI/MyButton";
 import classes from "./NavbarContainer.module.css";
 import logo from "../../assets/logo.png";
@@ -13,11 +12,9 @@ import { NAVIGATION } from "../../constants/constants";
 const NavbarContainer = () => {
   const [isToggleActive, setIsToggleActive] = useState(false);
   const [isOnTop, setIsOnTop] = useState(true);
-  // REDUX STORE
   const dispatch = useDispatch();
   const linksState = useSelector((state) => state.nav.currentPage);
 
-  // checking if viewport is on the top of the screen
   useEffect(() => {
     window.onscroll = () =>
       window.pageYOffset === 0 ? setIsOnTop(true) : setIsOnTop(false);
@@ -25,12 +22,10 @@ const NavbarContainer = () => {
     return () => (window.onscroll = null);
   });
 
-  // toggle click handler
   const changeToggleStatus = () => {
     setIsToggleActive((status) => !status);
   };
 
-  // conditional styles for elements
   const navbarToggleClassesFirst = isToggleActive
     ? `${classes.toggleIconLineOne} ${classes.rotateLeft}`
     : classes.toggleIconLineOne;
@@ -39,15 +34,11 @@ const NavbarContainer = () => {
     ? `${classes.toggleIconLineTwo} ${classes.rotateRight}`
     : classes.toggleIconLineTwo;
 
-  // custom style variables
   const nonActiveStyle = `${classes.links} nav-link`;
   const activeStyle = `${classes.links} nav-link ${classes.active}`;
 
-  // conditional styles for links
   const homeClasses =
     linksState === NAVIGATION.home ? activeStyle : nonActiveStyle;
-  const photovoltaicsClasses =
-    linksState === "photovoltaics" ? activeStyle : nonActiveStyle;
   const servicesClasses =
     linksState === NAVIGATION.services ? activeStyle : nonActiveStyle;
 
@@ -97,16 +88,6 @@ const NavbarContainer = () => {
               >
                 <Typography style={{ fontWeight: "bold" }}>Služby</Typography>
               </Link>
-{/* 
-              <Link
-                to="/photovoltaics"
-                onClick={() => dispatch(navActions.linkPhotovoltaics())}
-                className={photovoltaicsClasses}
-              >
-                <Typography style={{ fontWeight: "bold" }}>
-                  Fotovoltaika
-                </Typography>
-              </Link> */}
 
               <Link to="/contact">
                 <MyButton

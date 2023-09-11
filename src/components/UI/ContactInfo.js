@@ -36,7 +36,7 @@ export const ContactInfo = () => {
             <ContactInfoCard
               icon={<MdLocationPin size={30} color={iconColor} />}
               // TODO: fill proper location of company
-              text="-"
+              text="Jeseník nad Odrou, 742 33"
             />
           </Grid>
           <Grid item xs={12} md={4} data-aos="fade-in" data-aos-delay="350">

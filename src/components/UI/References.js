@@ -51,7 +51,6 @@ export const References = () => {
                 "Oceňuji profesionalitu a odbornost vašeho týmu při řešení neřízených protlaků. Díky vašemu přístupu byl celý projekt bez stresu a komplikací."
               }
             />
-            <a href="https://www.vecteezy.com/free-vector/digger">Digger Vectors by Vecteezy</a>
           </Grid>
         </Grid>
       </Container>
