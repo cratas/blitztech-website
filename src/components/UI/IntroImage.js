@@ -1,7 +1,6 @@
 import classes from "../content/home/Home.module.css";
 import { Container } from "react-bootstrap";
-import { Avatar } from "@mui/material";
-import { Box } from "@material-ui/core";
+import { Avatar, Box } from "@mui/material";
 import fotovoltaicHouse from "../../assets/fotovoltaic.jpg";
 import { DotsDesign } from "./DotsDesign";
 import { DOTS_COLOURS } from "../../constants/constants";

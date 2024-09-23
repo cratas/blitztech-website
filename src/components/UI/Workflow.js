@@ -20,7 +20,7 @@ export const Workflow = () => {
           isLeftAligned={false}
           number="01."
           title="První konzultace a analýza"
-          text="Provedeme detailní průzkum místa a analyzujeme vaše specifické požadavky, ať už jde o výkopové práce, elektroinstalace nebo neřízené protlaky."
+          text="Provedeme detailní průzkum místa a analyzujeme vaše specifické požadavky, ať už jde o výkopové práce, elektroinstalaci nebo neřízené protlaky."
         />
         <Step
           isLeftAligned={true}
@@ -32,13 +32,13 @@ export const Workflow = () => {
           isLeftAligned={false}
           number="03."
           title="Provedení prací"
-          text="Naše týmy začnou s pracemi dle plánu. Věnujeme maximální pozornost kvalitě, efektivitě a bezpečnosti."
+          text="Naše týmy zahájí práce podle plánu. Věnujeme maximální pozornost kvalitě, efektivitě a bezpečnosti."
         />
         <Step
           isLeftAligned={true}
           number="04."
           title="Kontrola a dokončení"
-          text="Po dokončení prací provedeme revizi a kontrolu kvality. Ujistíme se, že vše bylo provedeno dle vašich představ a očekávání."
+          text="Po dokončení prací provedeme revizi a kontrolu kvality. Ujistíme se, že vše bylo provedeno podle vašich představ a očekávání."
         />
       </Box>
     </Container>

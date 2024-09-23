@@ -96,13 +96,15 @@ export const Questions = () => {
               }
               pl={"5%"}
             >
-              Jedná se o pneumatický zemní protlak, který je neřízený. Na
-              začátku plánovaného protlaku se vykope vstupní pracovní jáma, na
-              konci pak výstupní. Do vstupní jámy se uloží tzv. raketa a přesně
-              se zaměří na cíl.
+              Neřízený protlak je pneumatický zemní protlak bez možnosti
+              přímého řízení směru. Pro zahájení protlaku se vykope vstupní
+              pracovní jáma a na konci plánovaného protlaku výstupní jáma. Ve
+              vstupní jámě je umístěna tzv. raketa, která je zaměřena na cíl
+              protlaku.
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={AccordionStyle}
           expanded={expanded === "panel2"}
@@ -159,17 +161,16 @@ export const Questions = () => {
               }
               pl={"5%"}
             >
-              Doba realizace projektu závisí na velikosti projektu, specifikách
-              dané zakázky a aktuálních podmínkách na staveništi. Menší projekty
-              mohou být dokončeny v řádu několika dnů, zatímco rozsáhlejší
-              projekty mohou vyžadovat několik týdnů až měsíců. Důležité je také
-              brát v úvahu faktory jako počasí, dostupnost materiálu a
-              koordinaci s dalšími řemeslníky na staveništi. Pro konkrétní odhad
-              doby realizace vašeho projektu vám rádi poskytneme individuální
-              kalkulaci po podrobném zhodnocení vašich požadavků.
+              Doba realizace projektu závisí na jeho velikosti, specifikách
+              zakázky a podmínkách na místě. Menší projekty mohou být dokončeny
+              během několika dní, zatímco rozsáhlejší projekty mohou trvat týdny
+              až měsíce. Faktory jako počasí, dostupnost materiálu a koordinace
+              s ostatními řemeslníky mohou ovlivnit časový plán. Po důkladné
+              analýze vašich požadavků vám poskytneme odhad doby realizace.
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={AccordionStyle}
           expanded={expanded === "panel3"}
@@ -226,75 +227,14 @@ export const Questions = () => {
               }
               pl={"5%"}
             >
-              Nabízíme služby v oblasti jak silnoproudých, tak i slaboproudých
-              elektroinstalací. Naše zkušený tým je připraven poskytnout vám
-              komplexní řešení dle vašich potřeb, ať už se jedná o domácnosti,
-              kanceláře nebo větší komerční prostory. Pro konkrétní informace a
-              nabídku služeb nás neváhejte kontaktovat.
+              Nabízíme služby v oblasti silnoproudých i slaboproudých
+              elektroinstalací. Náš tým je připraven vám poskytnout kompletní
+              řešení na míru, ať už jde o domácnosti, kanceláře nebo
+              komerční prostory. Kontaktujte nás pro více informací a konkrétní
+              nabídku služeb.
             </Typography>
           </AccordionDetails>
         </Accordion>
-        {/* <Accordion
-          expanded={expanded === "panel4"}
-          onChange={handleChange("panel4")}
-          sx={AccordionStyle}
-          style={{
-            backgroundColor:
-              expanded === "panel4"
-                ? "var(--color-dark-blue)"
-                : "var(--color-white)",
-          }}
-        > */}
-        {/* <AccordionSummary
-            expandIcon={
-              <ExpandMoreIcon
-                fontSize="large"
-                style={{
-                  color:
-                    expanded === "panel4"
-                      ? "var(--color-white)"
-                      : "var(--color-dark-blue)",
-                }}
-              />
-            }
-            aria-controls="panel4bh-content"
-            id="panel3bh-header"
-          >
-            <Typography
-              variant="h5"
-              style={{ fontWeight: "bold" }}
-              color="var(--color-light-grey)"
-              width="5%"
-              display={{ xs: "none", md: "block" }}
-            >
-              04
-            </Typography>
-            <Typography
-              variant="h6"
-              style={{ fontWeight: "bold" }}
-              color={
-                expanded === "panel4"
-                  ? "var(--color-white)"
-                  : "var(--color-dark-blue)"
-              }
-            >
-              Filtering has been entirely disabled for whole web server
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography
-              color={
-                expanded === "panel4"
-                  ? "var(--color-light-grey)"
-                  : "var(--color-dark-blue)"
-              }
-              pl={"5%"}
-            >
-              Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-              sit amet egestas eros, vitae egestas augue. Duis vel est augue.
-            </Typography>
-          </AccordionDetails> */}
-        {/* </Accordion> */}
       </Container>
     </Box>
   );

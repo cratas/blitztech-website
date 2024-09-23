@@ -1,8 +1,7 @@
 import React from "react";
-import { Divider } from "@material-ui/core";
 import { Box } from "@mui/system";
 import { Container } from "react-bootstrap";
-import { Typography } from "@mui/material";
+import { Typography, Divider} from "@mui/material";
 import MyButton from "./MyButton";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -51,7 +50,7 @@ export const ContactHoneyPot = () => {
             textAlign="center"
             mb={5}
           >
-            Kontaktujte nás a získáte <br/> řešení přesně podle Vašich potřeb.
+            Kontaktujte nás a získejte <br/>řešení přesně podle vašich potřeb.
           </Typography>
           <Link to="/contact">
             <MyButton

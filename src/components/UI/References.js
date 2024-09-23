@@ -25,7 +25,7 @@ export const References = () => {
             <ClientCard
               image={menImageFirst}
               feedback={
-                "Děkuji za rychlou a precizní realizaci výkopových prací. Tým byl velmi profesionální a dokončil práci dříve, než jsem očekával."
+                "Děkuji za rychlou a precizní realizaci výkopových prací. Tým byl velmi profesionální a práci dokončil dříve, než jsem očekával."
               }
               name="Kamil Švec"
               city="Krmelín"

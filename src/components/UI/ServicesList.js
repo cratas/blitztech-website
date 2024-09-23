@@ -21,19 +21,19 @@ export const ServicesList = () => {
 
         <Service
           title="Výkopové práce"
-          text="Plánujete stavební projekt nebo potřebujete připravit terén pro další práce? Naše tým je specializovaný na výkopové práce všeho druhu. Využijte našeho odborného know-how a moderní techniky pro rychlé a kvalitní provedení výkopů. Ať už se jedná o základy, kanalizaci, nebo jiné infrastrukturní projekty, jsme zde, abychom vám pomohli."
+          text="Plánujete stavební projekt nebo potřebujete připravit terén pro další práce? Náš tým je specializovaný na výkopové práce všeho druhu. Využijte našeho odborného know-how a moderní techniky pro rychlé a kvalitní provedení výkopů. Ať už se jedná o základy, kanalizaci nebo jiné infrastrukturní projekty, jsme zde, abychom vám pomohli."
           leftAligned={true}
           image={photovoltaicService}
         />
         <Service
           title="Elektro"
-          text="Ať už plánujete novou elektroinstalaci nebo potřebujete servis či revizi stávajícího zařízení, naši elektři vám poskytnou kvalitní a odbornou pomoc. Zajišťujeme veškeré silnoproudé i slaboproudé instalace, diagnostiku a odstraňování závad. Bezpečnost, kvalita a spolehlivost jsou našimi hlavními prioritami."
+          text="Ať už plánujete novou elektroinstalaci nebo potřebujete servis či revizi stávajícího zařízení, naši elektrikáři vám poskytnou kvalitní a odbornou pomoc. Zajišťujeme veškeré silnoproudé i slaboproudé instalace, diagnostiku a odstraňování závad. Bezpečnost, kvalita a spolehlivost jsou našimi hlavními prioritami."
           leftAligned={false}
           image={powerStation}
         />
         <Service
           title="Neřízené protlaky"
-          text="Neřízené protlaky mohou mít mnoho příčin a je důležité se s nimi správně vypořádat. Naše tým má zkušenosti s diagnostikou, preventivními opatřeními a řešením problémů spojených s neřízenými protlaky. Bezpečnost a efektivita je pro nás na prvním místě, ať už se jedná o domácnost nebo průmyslový objekt."
+          text="Neřízené protlaky mohou být komplikované a je důležité se s nimi správně vypořádat. Náš tým má zkušenosti s diagnostikou, preventivními opatřeními a řešením problémů spojených s neřízenými protlaky. Bezpečnost a efektivita jsou pro nás na prvním místě, ať už se jedná o domácnost nebo průmyslový objekt."
           leftAligned={true}
           image={fullBackUpImage}
         />

@@ -5,13 +5,13 @@ import { Typography, Divider } from "@mui/material";
 import MyButton from "./MyButton";
 
 export const IntroHeader = ({ scrollingRef }) => {
-  const handeFindOutMoreButton = () => {
+  const handleFindOutMoreButton = () => {
     scrollingRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <Container>
-      {/* Into text */}
+      {/* Intro text */}
       <Box textAlign="center" pt={8} data-aos="fade-up">
         <Typography
           variant="h1"
@@ -54,14 +54,14 @@ export const IntroHeader = ({ scrollingRef }) => {
       >
         <Box maxWidth={"30rem"}>
           <Typography
-            variant="p"
+          variant="h6"
             fontWeight={"500"}
             color={"var(--color-grey)"}
           >
             Kompletní řešení v oblasti výkopových prací, elektroinstalací a
             neřízených protlaků. S našimi službami získáte kvalitní a efektivní
             výsledky, minimalizujete rizika a zároveň přispějete k bezpečnosti a
-            plynulosti vašich projektů
+            plynulosti vašich projektů.
           </Typography>
         </Box>
       </Box>
@@ -73,7 +73,7 @@ export const IntroHeader = ({ scrollingRef }) => {
         data-aos="fade-up"
         data-aos-delay="150"
       >
-        <MyButton text="Zjistit více" onButtonClick={handeFindOutMoreButton} />
+        <MyButton text="Zjistit více" onButtonClick={handleFindOutMoreButton} />
       </Box>
     </Container>
   );

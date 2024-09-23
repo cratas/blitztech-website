@@ -1,13 +1,13 @@
 import { useState, React, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Typography } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 import MyButton from "../UI/MyButton";
 import classes from "./NavbarContainer.module.css";
 import logo from "../../assets/logo.png";
 import { navActions } from "../../redux/navSlice";
 import { NAVIGATION } from "../../constants/constants";
+import { Typography } from "@mui/material";
 
 const NavbarContainer = () => {
   const [isToggleActive, setIsToggleActive] = useState(false);

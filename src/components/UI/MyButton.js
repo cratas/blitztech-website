@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { Typography } from "@material-ui/core";
 import classes from "./MyButton.module.css";
+import { Typography } from "@mui/material";
 
 const MyButton = ({
   onButtonClick,

@@ -2,10 +2,10 @@ import { useState, React, useEffect } from "react";
 import { Container, Col, Row, Form } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import { Box } from "@mui/system";
-
 import useInput from "./../../hooks/use-input";
 import classes from "./UICommon.module.css";
 import MyButton from "./MyButton";
+import { Typography } from "@mui/material";
 
 export const FormSection = () => {
   const [isEmailSentMessageVisibile, setIsEmailSentMessageVisibile] =
@@ -48,6 +48,7 @@ export const FormSection = () => {
     const timer = setTimeout(() => {
       setIsEmailSentMessageVisibile(false);
     }, 3000);
+    
     return () => clearTimeout(timer);
   }, [isEmailSentMessageVisibile]);
 
@@ -61,27 +62,12 @@ export const FormSection = () => {
 
       return;
     }
-
-    emailjs
-      .sendForm
-      // "service_yh4ni9t",
-      // "template_hgw34uy",
-      // event.target,
-      // "qajZ6u7otyXQamiGv"
-      ()
-      .then(
-        (result) => {
-          setIsEmailSentMessageVisibile(true);
-
-          nameReset();
-          emailReset();
-          messageReset();
-        },
-        (error) => {
-          console.log(error.text);
-          return;
-        }
-      );
+  
+    setIsEmailSentMessageVisibile(true);
+    nameReset();
+    emailReset();
+    messageReset();
+ 
   };
 
   return (
@@ -154,9 +140,9 @@ export const FormSection = () => {
             <MyButton text="Odeslat" buttonType="dark" />
           </Form.Group>
           {isEmailSentMessageVisibile && (
-            <Form.Text className={`text-muted ${classes.emailSentMessage}`}>
-              Zpráva odeslána.
-            </Form.Text>
+            <Typography variant="h6" fontWeight="bold">
+              Děkujeme za zprávu, brzy se vám ozveme.
+            </Typography>
           )}
         </Form>
       </Box>

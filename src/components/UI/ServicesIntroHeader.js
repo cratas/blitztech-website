@@ -19,9 +19,9 @@ export const ServicesIntroHeader = () => {
           title={
             <span>
               Kompletní řešení na míru
-              <br /> pro Vaši{" "}
+              <br /> pro vaši{" "}
               <span style={{ color: "var(--color-light-blue)" }}>firmu</span> i
-              Vaši
+              vaši
               <span style={{ color: "var(--color-light-blue)" }}>
                 {" "}
                 domácnost
